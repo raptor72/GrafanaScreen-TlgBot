@@ -11,7 +11,9 @@ from config import *
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
+# Comment string below if you do not use proxy
 apihelper.proxy = apihelper_proxy
+
 headers = grafana_token
 path = image_path
 
